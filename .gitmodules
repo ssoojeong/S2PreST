@@ -1,0 +1,3 @@
+[submodule "sing"]
+	path = sing
+	url = https://github.com/ssoojeong/sing.git

@@ -1,4 +1,4 @@
-# S2PresT: Style Transfer for Source Image Preservation
+# S2PreST: Style Transfer for Source Image Preservation
 
 
 ### 1. Save files

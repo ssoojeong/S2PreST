@@ -1,4 +1,4 @@
-# Style Transfer: Mine
+# S2PresT: Style Transfer for Source Image Preservation
 
 
 ### 1. Save files
@@ -8,7 +8,6 @@
 
 ### 2. Create Environment
   ```sh
-    cd ./sing
     conda env create -f environment.yaml
     conda activate ldm
   ```
@@ -16,7 +15,6 @@
 ### 3. Inference
 
   ```sh
-    cd ./sing
   
     python ./module/inference.py \
              --style_name='wiki_1' \
@@ -24,8 +22,7 @@
   ```
 
   ```sh
-    cd ./sing
-  
+
     python ./module/inference.py \
              --style_name='wiki_2' \
              --content_path /path/to/directory/with/images
